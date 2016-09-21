@@ -5,7 +5,7 @@ export default class Home extends React.Component {
   constructor() {
     super();
     this.state = {
-      title: "Welcome",
+      title: "",
     };
   }
    changeTitle(title) {
