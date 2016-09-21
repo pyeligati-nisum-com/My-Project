@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default class Home extends React.Component {
   constructor() {
     super();
@@ -34,6 +33,7 @@ export default class Home extends React.Component {
             <button class="btn btn-default" onClick={this.handleChange.bind(this)} style={containerStyle}>Post</button>
           </div>
         </div>
+        <div class="formInstance"></div>
         <div class="row">
           <div class="col-lg-12">
             {this.state.title}
